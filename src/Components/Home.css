@@ -1,0 +1,78 @@
+html, body, #root{
+  height: 100%;
+  padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#footer{
+    display: flex;
+    height: 230px;
+    width: 100%;
+    background-color: rgb(250, 143, 143);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(250, 143, 143);
+    padding: 22px;
+    
+}
+
+#nav li{
+    margin-left: 2cqmax;
+    list-style: none;
+    
+}
+
+.btn-primary{
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color:  rgb(224, 105, 105);
+}
+
+.btn-primary:hover {
+  background-color: #d16b5c; /* тёплый терракотовый */
+  color: white;
+  border-color: #a94b42;   
+}
+
+.btn-secondary{
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #ffffff;
+}
+
+.btn-secondary:hover {
+   background-color: #d16b5c; /* тёплый терракотовый */
+  color: white;
+  border-color: #a94b42;   
+}
+
+.main {
+  flex: 1;
+  background-color: beige;
+  padding: 20px;
+  display: flex;
+  font-size: 20px;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.radioBtn-theme{
+   margin-left: 10px;
+}
+
