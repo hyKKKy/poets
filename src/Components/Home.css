@@ -57,12 +57,21 @@ html, body, #root{
   border-color: #a94b42;   
 }
 
-.main {
+.Light {
   flex: 1;
   background-color: beige;
   padding: 20px;
   display: flex;
   font-size: 20px;
+}
+
+.Dark{
+  flex: 1;
+  background-color: rgb(143, 143, 143);
+  padding: 20px;
+  display: flex;
+  font-size: 20px;
+  color: white;
 }
 
 .forma{
@@ -74,5 +83,29 @@ html, body, #root{
 
 .radioBtn-theme{
    margin-left: 10px;
+}
+
+.poetPic{
+  width: 300px;
+  height: 100%  ;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-inline: 20px;
+  height: 300px;
+}
+
+.title{
+  padding: 15px;
+  height: 300px;
+}
+
+.general{
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
 }
 
